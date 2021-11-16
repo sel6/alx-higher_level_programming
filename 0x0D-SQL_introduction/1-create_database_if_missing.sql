@@ -1,2 +1,2 @@
--- creates the database hbtn_0c_0 in MY MySQL server
-CREATE DATABASE [hbtn_0c_0];
+-- creates the database hbtn_0c_0 in MY MySQL server 
+CREATE DATABASE IF NOT EXISTS hbtn_0c_0;
