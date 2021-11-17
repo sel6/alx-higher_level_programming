@@ -1,4 +1,6 @@
 -- a script that lists all cities contained in the database 
-SELECT id, name, name
-FROM cities RIGHT JOIN states ON cities.id = states.id
-ORDER BY id;
+SELECT cities.id, cities.name, states.name
+  FROM cities
+       INNER JOIN states
+       ON cities.state_id = states.id
+ ORDER BY cities.id;
